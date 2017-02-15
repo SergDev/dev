@@ -1,0 +1,14 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: SergD
+ */
+
+setlocale(LC_ALL, "russian");
+
+echo iconv("windows-1251", "UTF-8", strftime("%B"));
+echo "<br>";
+
+$name = "Jone";
+echo ($name = 1);
+
